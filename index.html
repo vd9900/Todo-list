@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container flex-center">
+        <div class="Add-Task-Container flex-center">
+                <input type="text" placeholder="Add a task" class="Add-Task">
+                <button class="Add-Task-btn">Add</button>
+            </div>
+           
+            <div class="Main-Task-Container flex-center">
+                <div class="Header-Tasks-Container flex-center">
+                <div class="Task-Header flex-center header">To-Do-list</div>
+                <div class="Completed-Header header flex-center">Completed</div>
+                <span class="Small-Anime"></span>
+            </div>
+            <div class="Task-Section">
+                <ul class="Tasks-Body flex-center Task-Section-1 ">                      
+                    <li class="Empty-Text Text1 flex-center">Task is Empty</li>         
+                </ul>
+                <ul class="Task-Completed-Container clsg Task-Section-2">
+                        <li class="Empty-Text Text2 flex-center">No Task Completed Yet</li>         
+                    </ul>
+                </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
