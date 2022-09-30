@@ -21,7 +21,7 @@
 //         console.log(this.name)
 //     }
 // }
-// obj.getname()
+// obj.
 
 // let Time = '11:30PM';
 // // Convert 12hours to 24hours
