@@ -16,7 +16,7 @@
 // })();   
 
 // let obj = {
-//     name
+//     
 //     getname:() =>{
 //         console.log(this.name)
 //     }
